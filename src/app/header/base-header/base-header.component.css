@@ -1,0 +1,29 @@
+.header-banner{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    color: white;
+    background-color: #2e3141;
+    /* border-bottom: 2px solid white; */
+}
+.header-banner>img{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 20%;
+    left: 15%;
+}
+.header-banner>h1{
+    padding: 110px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 3em;
+}
+.header-banner>p{
+    float: right;
+    text-align: center;
+    width: 50%;
+    font-weight: 100;
+    margin-right: 25%;
+    font-size: 2em;
+}

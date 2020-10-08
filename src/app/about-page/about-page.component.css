@@ -1,0 +1,34 @@
+.background-container{
+    /* position: fixed; */
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+}
+.purple-box{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    color: white;
+    height: 55vh;
+    width: 40%;
+    background-color:  #2e3141;
+    border-radius: 10px;
+    box-shadow: 2px 4px 20px 5px rgba(0, 0, 0, 0.39);
+}
+.purple-box>h1{
+    padding: 10px;
+    margin: 2%;
+    width: 92%;
+    font-weight: lighter;
+    /* border-bottom: 1px solid white; */
+}
+.purple-box-image{
+    position: absolute;
+    top: 35%;
+    left: 5%;
+    height: 300px;
+    width: 500px;
+}
+.purple-box>p{
+    padding: 15px;
+}

@@ -1,0 +1,25 @@
+.footer-banner{
+    width: 100%;
+    height: 80vh;
+    background-color: #2e3141;
+}
+.footer-banner:after{
+    content: ' ';
+    border-top: 20vh solid #5b6ba6;
+    border-right: 98.9vw solid transparent;
+    width: 0;
+    position: absolute;
+}
+.right-section{
+    margin-top: 150px;
+    position: relative;
+    color: white;
+    width: 20%;
+    float: right;
+    z-index: 1;
+}
+h1{
+    padding: 5px;
+    font-weight: lighter;
+    cursor: pointer;
+}
